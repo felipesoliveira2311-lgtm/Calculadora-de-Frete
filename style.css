@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+body {
+    font: normal 15px arial;
+    margin:0px;
+    background-color:#E8EFF7;
+}
+
+header, footer{
+    display:flex;
+    height:100;
+    background-color:#F4F7FA;
+}
+
+.logo{
+    width:30%;
+    margin-left: 50px;
+}
+
+#freteja{
+    font-size:20px;
+}
+
+.inicio {
+    margin-top:20px;
+    margin-right:30px;
+    text-align: right;
+    width: 70%;
+}
+
+a{
+    padding: 20px;
+    font-size:12px;
+}
+
+
+#linha1, #linha2, #linha3{
+    display:flex;
+    width:100%;
+    gap:20px;
+}
+
+#lpart1, #lpart2 {
+    width:50%;
+}
+
+
+#card1 {
+   width:50%;
+    margin:20px;
+    border-radius:5px;
+    box-shadow: 0 5px 20px rgba(60, 100, 140, 0.10);
+    background-color:white;
+}
+
+#card2{
+   width:50%;
+    margin:20px;
+    border-radius:5px;
+    box-shadow: 0 5px 20px rgba(60, 100, 140, 0.10);
+    background-color:#edf6fe;
+}
+
+#topcard h2, #topcard2 h2{
+    margin-left:70px;
+    font-size:18px;
+    font-weight: 800;
+    color:#0d3769;
+}
+
+#topcard p, #topcard2 p{
+    margin-top:-15px;
+    margin-left:70px; 
+    color:grey;
+    font-size: px;
+}
+.valor, .valor input, .valor select, .valor button{
+    max-width:350px;
+    font-weight: 600;
+    padding:20px;
+    border-radius:5px;
+    width:100%;  
+}
+
+.valor label{
+    font-size:15px;
+
+}
+
+.valor input, .valor select{
+    border:1px solid #0d366927;
+    max-width:10000px;
+    width:100%;
+}
+
+button{
+    background-color:#1672df;
+    color:white;
+    margin-top:20px;
+    border:1px solid #1671df06;
+    max-width:320px;
+    width:100%;
+}
+
+#centercard2 h2, #centercard2 p {
+    text-align: center;
+    font-size: 13px;
+    margin-top:200px;
+} 
+
+#centercard2 p {
+    margin-top:0px;
+}
+
+#linha3{
+    width:100%;
+    border-radius: 8px;
+    border:1px solid #0d366912;
+    margin-top:30px;
+    background-color:white;
+    margin-bottom:0px;
+}
+
+.bloco, .bloco3,.bloco2{
+    font-size: 10px;
+    width:25%;
+    padding:20px;
+    border-left: 1px solid #0d366912;
+    margin-bottom:20px;
+}
+
+.bloco p{
+    margin-top:100;
+    margin-bottom:-30px;
+    font-size:13px;
+
+}
+
+
+
+footer{
+    margin-top:30px;
+}
