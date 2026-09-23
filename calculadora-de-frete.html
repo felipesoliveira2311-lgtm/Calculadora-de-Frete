@@ -92,7 +92,7 @@
 
                 <div class="selecao">
                     <label  for="valorDaCompra">Valor da compra (R$)</label>
-                    <input class="selecao estiloBarra" type="text" id="valorDaCompra" name="valorDaCompra" placeholder="Ex: 150,00" > 
+                    <input class="selecao estiloBarra" type="text" id="valorDaCompra" name="valorDaCompra" placeholder="Ex: 150,00" required> 
                 </div>
 
 
@@ -100,7 +100,7 @@
 
 
                     <label for="selecioneUmaRegiao">Região de entrega:</label>
-                    <select class="selecao estiloBarra" id="selecioneUmaRegiao" name="selecioneUmaRegiao">
+                    <select class="selecao estiloBarra" id="selecioneUmaRegiao" name="selecioneUmaRegiao" required>
                     <option value="" disabled selected>Selecione uma região...</option>
                     <option value="Sudeste">Sudeste</option>
                     <option value="Sul">Sul</option>
@@ -112,7 +112,7 @@
                 </div>
 
                     <div>
-                    <button type="button" class="selecao">Calcular Frete</button>               
+                    <button type="button" class="selecao" id="calcular">Calcular Frete</button>               
                     </div>
 
         </div>
@@ -143,7 +143,7 @@
 
                 <div class="centerCard2">
 
-                    <img class="tamanhoImgCenterCard2" src="imagens/caixa.png">
+                    <img id="resultado" class="tamanhoImgCenterCard2" src="imagens/caixa.png">
     
 
                 <div class="centerCard2">

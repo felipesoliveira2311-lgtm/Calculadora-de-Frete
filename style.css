@@ -322,5 +322,80 @@ footer nav a{
     color:white;
 }
 
+/* TELA DE RESULTADO */
+
+.resultadoDeCalculo{
+
+    border-radius:12px;
+    background-color:#EAF5FE;
+}
+
+.frete{
+    padding-inline:20px;
+    padding-block: 20px;;
+    border-bottom:2px solid rgba(128, 128, 128, 0.127);
+    display:flex;
+    flex-direction: row;
+    margin:0px;
+   
+}
+
+.frete:last-child{
+    border-bottom: none;
+}
 
 
+
+.frete p{
+    margin:0px;
+    text-align: left;
+    padding-inline:30px;
+    font-weight: 600;
+    font-size: 17px;;
+}
+
+.frete h2{
+    text-align: left;
+    margin:0px;
+    font-size: 35px;
+    padding-inline:30px;
+    color:#0a6af0;
+}
+
+.frete small{
+    font-weight: 100;
+    font-size: 10px;
+    padding:30px;
+}
+#total{
+    color:#00050b;
+}
+
+.prontoParaEnvio{
+    background-color:  #DDF7E7;
+    margin-block: 10px;;
+    border-radius: 12px;;
+    display: flex;  
+    flex-direction: row;
+    padding:12px;
+}
+
+.prontoParaEnvio h2{
+    margin:0px;
+    font-size:16px;
+    padding-block:0px;
+    text-align: start;
+    padding-inline: 10px;
+    color:#087333;
+}
+
+.prontoParaEnvioAjuste{
+    display:flex;
+    flex-direction: column;
+}
+
+.prontoParaEnvio small{
+    font-size: 11px;
+    padding:10px;
+    color:#087333;
+}
