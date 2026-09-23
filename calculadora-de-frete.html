@@ -9,75 +9,98 @@
 </head>
 <body>
 
-
+                            <!-- HEADER -->
     <header>
 
-        <div class="logo">
-            <a href="#"></a>
-            <h1 style="margin: 0px; font-size: 25px;">FreteJá</h1>
-            <p style="border: 1px solid black;margin:0px;">Seu frete, sem complicação</p>
+        <div class="maxwidth displayFlex">
+            <div id="logo" class="displayFlex">
+                <img src="imagens/caminhao-logo.png">
+            
+              <div>
+                <h1>Frete<span>Já</span></h1>
+                <small>Seu frete, sem complicação</small>
+              </div>
         </div>
+            
 
 
-        <div class="inicio">
-
-
-            <nav>
-                <a href="#">Início</a>
-                <a href="#">Como funciona</a>
-                <a href="#">Sobre</a>
-            </nav>
-
+            <div>
+                <nav>
+                    <a class="whenMouseHover" href="#">Início</a>
+                    <a class="whenMouseHover" href="#">Como funciona</a>
+                    <a class="whenMouseHover" href="#">Sobre</a>
+                </nav>
+            </div>
 
         </div>
+        
 
 
     </header>
 
+                                <!-- LINHA 1 -->
 
-    <main>
-
-
-        <div id="linha1">
+    <main class="maxwidth">
 
 
-            <div id="lpart1">
-                <h2 style="margin-left:30px; margin-bottom:0px; margin-top:30px; font-size:40px;">Calcule seu frete</h2><h2 style="margin-left:30px; margin-top:0px; font-size:40px; color:#1672df;">de forma rápida e fácil</h2>
-                <p style="margin-top:-20px;margin-left:30px; color:grey; font-size: 13px;">Informe o valor da sua compra e a região de entrega para<br>ver o custo do frete em segundos.</p>
+        <!-- PART1 -->
+        <div  class="displayFlex" id="linha1">
+
+            <div id="l1p1">
+                <h2>Calcule seu frete<br><span>de forma rápida e fácil</span></h2>
+
+            <div id="l1p1p">    
+                <p>Informe o valor da sua compra e a região de entrega para<br>ver o custo do frete em segundos.</p>
             </div> 
             
-
-            <div id="lpart2">
-            <img href="#">
-            <p>Entregando boas experiências</p>
             </div>
 
+            <!-- PART2 -->
+            <div id="l1p2" class="displayFlex">
+            <img id="caminhaoHero" src="imagens/ChatGPT Image 22 de set. de 2026, 15_20_13.png">
+           </div>
+
         </div>
+                                <!-- LINHA 2 -->
 
 
-        <div id="linha2">
+
+        <div  class="displayFlex" id="linha2">
+
+            <!-- CARD 1 -->
+            <div  class="card" id="card1">
 
 
-            <div id="card1">
+                <div class="inicioCard">
+
+                    <div class="displayFlexCard">
+
+                        <img class="tamanhoImgCard1" src="imagens/carrinho-carga.png">
+                    
+                        <div class="conteudoDados">
+                        <h2>Dados da compra</h2>
+                        <div>
+                        <small>Preencha as informações abaixo</small>
+                    </div>
+                
+                    </div>
+
+                </div>
+
+            </div>
 
 
-                <div id="topcard">
-                    <h2>Dados da compra</h2>
-                    <p>Preencha as informações abaixo</p>
+                <div class="selecao">
+                    <label  for="valorDaCompra">Valor da compra (R$)</label>
+                    <input class="selecao estiloBarra" type="text" id="valorDaCompra" name="valorDaCompra" placeholder="Ex: 150,00" > 
                 </div>
 
 
-                <div class="valor">
-                    <label for="valorDaCompra">Valor da compra (R$)</label>
-                    <input type="text" id="valorDaCompra" name="valorDaCompra" placeholder="Ex: 150,00" > 
-                </div>
-
-
-                <div class="valor" id="selecionarregiao">
+                <div class="selecao" id="selecionarregiao">
 
 
                     <label for="selecioneUmaRegiao">Região de entrega:</label>
-                    <select id="selecioneUmaRegiao" name="selecioneUmaRegiao">
+                    <select class="selecao estiloBarra" id="selecioneUmaRegiao" name="selecioneUmaRegiao">
                     <option value="" disabled selected>Selecione uma região...</option>
                     <option value="Sudeste">Sudeste</option>
                     <option value="Sul">Sul</option>
@@ -86,61 +109,83 @@
                     <option value="Norte">Norte</option>
                     </select>
 
+                </div>
 
-                    <div id="botao">
-                    <button type="button" id="calcular">Calcular Frete</button>               
+                    <div>
+                    <button type="button" class="selecao">Calcular Frete</button>               
                     </div>
 
+        </div>
+
+        <!-- CARD 2 -->
+
+            <div class="card" id="card2">
+
+                <div class="inicioCard">
+
+                    <div class="displayFlexCard">
+
+                        <img class="tamanhoImgCard2" src="imagens/rastreamento.png">
+
+                        <div class="conteudoDados">
+                        <h2>Resultado</h2>
+                        <div>
+                        <small>Confira os detalhes do seu frete</small>
+                        
+                        </div>
+
+                        </div>
+                    </div>
 
                 </div>
 
+            <div class="displayFlexCard">
 
-                </div>
-            
-            <div id="card2">
+                <div class="centerCard2">
 
+                    <img class="tamanhoImgCenterCard2" src="imagens/caixa.png">
+    
 
-                <div id="topcard2">
-                    <h2 class="textocard">Resultado</h2>
-                    <p class="subtexto">Confira os detalhes do seu frete</p>
-                </div>
-
-
-                <div id="centercard2">
-                    <a href="#"></a>
-                    <h2>Preencha os dados a esquerda</h2>
+                <div class="centerCard2">
+                    <h2>Preencha os dados ao lado</h2>
                     <p>O valor do frete e o total da sua compra serão exibidos aqui.</p>
                 </div>
-
+                
 
             </div>
             
-            
         </div>
 
+
+        </div>
+                        <!--LINHA 3-->
         
-        <div id="linha3">
+        <div  class="displayFlexCard" id="linha3">
 
 
             <div class="bloco">
+                <img src="imagens/globo-entrega.png">
                 <h2>Frete para todo o Brasil</h2>
                 <p>Entregamos em todas as regiões</p>
             </div>
 
 
              <div class="bloco">
+                <img src="imagens/icone-rapido.png">
                 <h2>Cálculo rápido</h2>
                 <p>Resultado em segundos</p>
             </div>
 
 
              <div class="bloco">
+                <img src="imagens/icone-seguranca.png">
                 <h2>Transparência</h2>
                 <p>Sem taxas ocultas</p>
             </div>
 
 
              <div class="bloco">
+                <img src="imagens/icone-economia.png">              
                 <h2>Mais pelo seu bolso</h2>
                 <p>Frete grátis em compras acima de R$ 300</p>
             </div>
@@ -149,32 +194,38 @@
         </div>
 
 
+
+
+
     </main>
 
     <footer>
 
-
-        <div class="logo">
-            <a href="#"></a>
-            <h1>FreteJá</h1>
-            <p>Seu frete, sem complicação</p>
+           <div class="maxwidth displayFlex">
+            <div id="logo" class="displayFlex">
+                <img src="imagens/caminhao-logo.png">
+            
+              <div>
+                <h1>Frete<span>Já</span></h1>
+                <small>Seu frete, sem complicação</small>
+              </div>
         </div>
+            
 
 
-        <div class="inicio">
-            <nav>
-                <a href="#">Início</a>
-                <a href="#">Como funciona</a>
-                <a href="#">Sobre</a>
-            </nav>
-
+            <div>
+                <nav>
+                    <a class="whenMouseHover" href="#">Início</a>
+                    <a class="whenMouseHover" href="#">Como funciona</a>
+                    <a class="whenMouseHover" href="#">Sobre</a>
+                </nav>
+            </div>
 
         </div>
-
-
-        <div id="redes">
-            <p>2024 Frete já. Todos os direitos reservados.</p>
-        </div>
+        
+            <div>
+                <p>2026 Frete já. Todos os direitos reservados.</p>
+            </div>
 
     </footer>
 

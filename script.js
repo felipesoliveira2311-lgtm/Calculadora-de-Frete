@@ -1,5 +1,5 @@
-let valorDaCompra = 299;
-let selecioneUmaRegiao = "Norte";
+let valorDaCompra = 300;
+let selecioneUmaRegiao = "Sul";
 let valorFrete;
 let valorTotal;
 
